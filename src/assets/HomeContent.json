@@ -1,0 +1,160 @@
+[
+  {
+    "headerMenu": [
+      {
+        "id": 1,
+        "name": "Home",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "name": "About",
+        "link": "/about"
+      },
+      {
+        "id": 3,
+        "name": "Contact",
+        "link": "/contact"
+      },
+      {
+        "id": 4,
+        "name": "Sign Up",
+        "link": "/sign-up"
+      }
+    ],
+    "heroMenu": [
+      {
+        "name": "Women's Fashion",
+        "id": 1,
+        "children": [
+          {
+            "name": "Clothing",
+            "id": 11
+          },
+          {
+            "name": "Shoes & Accessories",
+            "id": 12
+          }
+        ]
+      },
+      {
+        "name": "Men's Fashion",
+        "id": 2,
+        "children": [
+          {
+            "name": "Clothing",
+            "id": 21
+          },
+          {
+            "name": "Shoes & Accessories",
+            "id": 22
+          },
+          {
+            "name": "Sportswear",
+            "id": 23,
+            "children": [
+              {
+                "name": "Activewear",
+                "id": 231
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electronics",
+        "id": 3,
+        "children": [
+          {
+            "name": "Televisions",
+            "id": 31
+          },
+          {
+            "name": "Computers & Laptops",
+            "id": 32
+          },
+          {
+            "name": "Smartphones",
+            "id": 33,
+            "children": [
+              {
+                "name": "Android",
+                "id": 331
+              },
+              {
+                "name": "iPhone",
+                "id": 332
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Home & Lifestyle",
+        "id": 4,
+        "children": [
+          {
+            "name": "Furniture",
+            "id": 41
+          },
+          {
+            "name": "Kitchenware",
+            "id": 42
+          },
+          {
+            "name": "Décor",
+            "id": 43,
+            "children": [
+              {
+                "name": "Wall Art",
+                "id": 431
+              },
+              {
+                "name": "Lighting",
+                "id": 432
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Medicine",
+        "id": 5
+      },
+      {
+        "name": "Sports & Outdoor",
+        "id": 6
+      },
+      {
+        "name": "Baby & Toys",
+        "id": 7
+      },
+      {
+        "name": "Groceries & Pets",
+        "id": 8
+      },
+      {
+        "name": "Health & Beauty",
+        "id": 9
+      }
+    ],
+    "heroSliders": [
+      {
+        "image": "/src/assets/banners1.jpg",
+        "id": 1
+      },
+      {
+        "image": "/src/assets/banners1.jpg",
+        "id": 2
+      },
+      {
+        "image": "/src/assets/banners1.jpg",
+        "id": 3
+      },
+      {
+        "image": "/src/assets/banners1.jpg",
+        "id": 4
+      }
+    ]
+  }
+]

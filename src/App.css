@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.headerwp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ul.nav_grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.logo {
+  max-width: 118px;
+  width: 100%;
+}
+.logo img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+.header_utility {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.searchbox {
+  position: relative;
+  height: 38px;
+  min-width: 243px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  outline: none;
+}
+.searchbox input {
+  width: 100%;
+  height: 100%;
+  padding: 7px 70px 7px 20px;
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.headericons >div {
+  width: 32px;
+  height: 32px;
+}
+.headericons img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.headericons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  justify-content: space-between;
+}
+.searchbox img {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+  transform: translateY(-50%);
+}
+li.nav_items a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+header {
+  padding: 40px 0 16px;
+  border-bottom: 1px solid rgb(0 0 0 / 30%);
+}
+.index_hero_wp {
+  display: flex;
+}
+.index_heroleft {
+  max-width: 233px;
+  width: 100%;
+  padding-right: 16px;
+  border-right: 0.5px solid rgb(0 0 0 / 30%);
+}
+.index_heroright {
+  max-width: calc(100% - 233px);
+  width: 100%;
+  padding-left: 45px;
+  padding-top: 40px;
+}
+.index_slideritemimg img {
+  max-width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.index_heroleft ul {
+  list-style: none;
+  padding: 0;
+}
+li.index_hero_item ul {
+  display: none;
+}
+li.index_hero_item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+ul.index_heromenu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 40px 0 0;
+}
+.index_slideritem .index_slideritemimg {
+  position: relative;
+  padding-bottom: 38.5650224%;
+}
+.index_slideritem {
+  height: auto;
+}
+.index_sliderwp .slick-dots {
+  bottom: 17px;
+}
+.index_sliderwp .slick-dots button:before {
+  display: none;
+}
+.index_sliderwp .slick-dots li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: rgb(255 255 255 / 50%);
+  transition: all 0.3s;
+  margin: 0 6px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.index_sliderwp .slick-dots button {
+  width: 0;
+  height: 0;
+  transition: all 0.3s;
+}
+.index_sliderwp .slick-dots li.slick-active {
+  width: 14px;
+  height: 14px;
+  background-color: #FFFFFF;
+}
+.index_sliderwp .slick-dots li.slick-active button {
+  background-color: #DB4444;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 0 ;
+}
+.fc_products_grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+.pc_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+.pc_image {
+  position: relative;
+  padding-bottom: 92.5925926%;
+  background-color: #F5F5F5;
+}
+.pc_heading {
+  margin: 16px 0 0 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.pc_content {
+  width: 100%;
+}
+.featured_collection {
+  padding:  70px 0;
+}
+.pc_subtext {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #DB4444;
+}
