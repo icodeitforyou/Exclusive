@@ -17,7 +17,7 @@ export default function FeaturedCollection({ collection,limit }) {
       <div className="container">
         <div className="fc_header">
           <span className="fc_caption">Today’s</span>
-          <h2 className="fc_heading">Flash Sales</h2>
+          <h2 className="fc_heading">Flash Sales ({limit})</h2>
         </div>
         <div className="fc_products_grid">
             {prdData &&
